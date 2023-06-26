@@ -9,8 +9,8 @@ Original file is located at
 
 import boto3, json
 session = boto3.Session(
-    aws_access_key_id='AKIA27DXC5JDV5DNMDRI',
-    aws_secret_access_key='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',
+    aws_access_key_id='AKIAQMPQLPLRQRTWC3QT',
+    aws_secret_access_key='t5XdT/AA3+iVqT5oSa4/gIG0LHbNHOgXklB6KCF0',
     region_name='ap-south-1'  # Replace with your desired AWS region
 )
 iam = session.client('iam')
